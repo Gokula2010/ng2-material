@@ -28,6 +28,9 @@
       '@angular2-material/button': 'npm:@angular2-material/button/button.umd.js',
       '@angular2-material/input': 'npm:@angular2-material/input/input.umd.js',
       '@angular2-material/radio': 'npm:@angular2-material/radio/radio.umd.js',
+      '@angular2-material/card': 'npm:@angular2-material/card/card.umd.js',
+      '@angular2-material/icon': 'npm:@angular2-material/icon/icon.umd.js',
+      
 
       // other libraries
       'rxjs':                      'npm:rxjs',

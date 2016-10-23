@@ -8,6 +8,8 @@ import { MdButtonModule } from '@angular2-material/button';
 
 import { MdInputModule } from '@angular2-material/input';
 import { MdRadioModule, MdUniqueSelectionDispatcher } from '@angular2-material/radio';
+import { MdCardModule } from '@angular2-material/card';
+import { MdIconModule, MdIconRegistry } from '@angular2-material/icon';
 
 
 @NgModule({
@@ -24,7 +26,8 @@ import { MdRadioModule, MdUniqueSelectionDispatcher } from '@angular2-material/r
         AppComponent
     ],
     providers: [
-        MdUniqueSelectionDispatcher
+        MdUniqueSelectionDispatcher,
+        MdIconRegistry
     ]
 })
 export class AppModule { }
